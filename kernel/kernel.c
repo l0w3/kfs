@@ -1,7 +1,7 @@
 #include "../include/kernel.h"
 
 /*
-   VGA Buffer: Consists of 16 bytes (ax):
+   VGA Buffer: Consists of 16 bits (ax):
    Lower 8 bits: Character to be used (al)
    Upper 8 bits: Color (ah)
    Upper 4 bits: Background
